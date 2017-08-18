@@ -16,7 +16,7 @@ ul {
     max-width: 100%;
     min-height: 53px;
     width: 100%;
-    background: #e53935;
+    background: #ab000d;
     text-align: center;
     z-index: 1;
 }
@@ -33,6 +33,7 @@ ul {
     position: relative;
     max-width: 100%;
     top: 54px;
+    overflow: auto;
 }
 
 .container {
@@ -41,11 +42,20 @@ ul {
     padding-left: 10%;
     padding-right: 10%;
     background-color: #f5f5f6;
+    overflow: auto;
 }
 
 .row {
     position: relative;
     width: 100%;
+}
+
+.mt-2 {
+    margin-top: 9%;
+}
+
+.text-align-center {
+    text-align: center;
 }
 
 /* portrait styles */
@@ -69,7 +79,7 @@ ul {
 }
 
 #drop-down {
-    background-color: #ab000d;
+    background-color: #e53935;
     color: white;
 }
 
