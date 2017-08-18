@@ -54,6 +54,14 @@ ul {
     margin-top: 9%;
 }
 
+.mb-2 {
+    margin-bottom: 9%;
+}
+
+.my-2 {
+    margin: 9% 0;
+}
+
 .text-align-center {
     text-align: center;
 }
